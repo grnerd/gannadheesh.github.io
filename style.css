@@ -1,0 +1,51 @@
+/* Include Font Awesome for icons (optional) */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222; /* Dark background */
+  color: #fff; /* Light text */
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+header,
+footer {
+  background-color: #111; /* Darker header and footer */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Inherit text color from parent */
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #ccc; /* Light grey hover effect */
+}
+
+main {
+  padding: 40px;
+}
